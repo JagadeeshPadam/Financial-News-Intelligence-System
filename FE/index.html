@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Financial News Intelligence System</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-content">
+                <div class="logo">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                        <rect width="32" height="32" rx="8" fill="url(#gradient)"/>
+                        <path d="M16 8L24 16L16 24L8 16L16 8Z" fill="white"/>
+                        <defs>
+                            <linearGradient id="gradient" x1="0" y1="0" x2="32" y2="32">
+                                <stop offset="0%" stop-color="#667eea"/>
+                                <stop offset="100%" stop-color="#764ba2"/>
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                    <h1>Financial News Intelligence</h1>
+                </div>
+                <div class="header-actions">
+                    <button class="btn-secondary" id="showEntitiesBtn">
+                        <span>📊</span> Entities
+                    </button>
+                    <div class="status-indicator">
+                        <span class="status-dot"></span>
+                        <span id="connectionStatus">Connected</span>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Search Section -->
+            <section class="search-section">
+                <div class="search-container">
+                    <div class="search-input-wrapper">
+                        <svg class="search-icon" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M9 17A8 8 0 1 0 9 1a8 8 0 0 0 0 16zM19 19l-4.35-4.35" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                        <input 
+                            type="text" 
+                            id="searchInput" 
+                            placeholder="Ask about companies, sectors, or market events... (e.g., 'HDFC Bank news' or 'Banking sector updates')"
+                            autocomplete="off"
+                        />
+                        <button class="btn-clear" id="clearBtn" style="display: none;">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                <path d="M12 4L4 12M4 4l8 8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                        </button>
+                    </div>
+                    <button class="btn-primary" id="searchBtn">
+                        <span>Search</span>
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                            <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </button>
+                </div>
+
+                <!-- Quick Queries -->
+                <div class="quick-queries">
+                    <span class="quick-label">Try:</span>
+                    <button class="quick-query" data-query="HDFC Bank news">HDFC Bank news</button>
+                    <button class="quick-query" data-query="Banking sector update">Banking sector update</button>
+                    <button class="quick-query" data-query="RBI policy changes">RBI policy changes</button>
+                    <button class="quick-query" data-query="IT sector news">IT sector news</button>
+                </div>
+            </section>
+
+            <!-- Results Section -->
+            <section class="results-section">
+                <div id="loadingState" class="loading-state" style="display: none;">
+                    <div class="spinner"></div>
+                    <p>Analyzing financial news...</p>
+                </div>
+
+                <div id="emptyState" class="empty-state">
+                    <div class="empty-icon">🔍</div>
+                    <h3>Intelligent Financial News Search</h3>
+                    <p>Search for companies, sectors, or market events to get AI-powered insights with:</p>
+                    <ul class="features-list">
+                        <li>✓ Smart deduplication of similar news</li>
+                        <li>✓ Automatic entity extraction (companies, sectors, people)</li>
+                        <li>✓ Stock impact analysis with confidence scores</li>
+                        <li>✓ Context-aware semantic search</li>
+                    </ul>
+                </div>
+
+                <div id="resultsContainer" style="display: none;">
+                    <div class="results-header">
+                        <h2 id="resultsTitle"></h2>
+                        <span id="resultsCount" class="results-count"></span>
+                    </div>
+                    <div id="resultsList" class="results-list"></div>
+                </div>
+
+                <div id="errorState" class="error-state" style="display: none;">
+                    <div class="error-icon">⚠️</div>
+                    <h3>Something went wrong</h3>
+                    <p id="errorMessage"></p>
+                    <button class="btn-secondary" id="retryBtn">Try Again</button>
+                </div>
+            </section>
+        </main>
+
+        <!-- Entities Modal -->
+        <div id="entitiesModal" class="modal" style="display: none;">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2>Extracted Entities</h2>
+                    <button class="modal-close" id="closeModalBtn">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M15 5L5 15M5 5l10 10" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="modal-body" id="entitiesContent">
+                    <div class="spinner"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

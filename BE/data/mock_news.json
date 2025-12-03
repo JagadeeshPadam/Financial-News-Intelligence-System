@@ -1,0 +1,218 @@
+[
+    {
+        "headline": "HDFC Bank announces 15% dividend, board approves stock buyback",
+        "content": "HDFC Bank announced a dividend of 15% and the board has approved a stock buyback program worth Rs 5000 crores. The bank's strong financial performance in Q4 has enabled this shareholder-friendly move. The buyback will be conducted through the open market route.",
+        "source": "MoneyControl",
+        "timestamp": "2024-12-01T10:30:00"
+    },
+    {
+        "headline": "RBI raises repo rate by 25bps to 6.75%, citing inflation concerns",
+        "content": "The Reserve Bank of India has increased the repo rate by 25 basis points to 6.75% in a surprise move to combat rising inflation. The Monetary Policy Committee voted 5-1 in favor of the hike. RBI Governor signaled a hawkish stance for the near future.",
+        "source": "Economic Times",
+        "timestamp": "2024-12-01T11:00:00"
+    },
+    {
+        "headline": "RBI increases repo rate by 25 basis points to combat inflation",
+        "content": "In an unexpected policy decision, the Reserve Bank has hiked the policy repo rate by 0.25% to 6.75%. This move aims to tackle the persistent inflation that has remained above the central bank's target range. Markets reacted negatively to the announcement.",
+        "source": "Business Standard",
+        "timestamp": "2024-12-01T11:15:00"
+    },
+    {
+        "headline": "Central bank raises policy rate 25bps, signals hawkish stance",
+        "content": "The Reserve Bank of India raised its benchmark interest rate by 25 basis points today, bringing it to 6.75%. The MPC's hawkish commentary suggests more rate hikes could follow if inflation doesn't moderate. Banking stocks declined on the news.",
+        "source": "LiveMint",
+        "timestamp": "2024-12-01T11:30:00"
+    },
+    {
+        "headline": "ICICI Bank opens 500 new branches across Tier-2 cities",
+        "content": "ICICI Bank announced the opening of 500 new branches in Tier-2 and Tier-3 cities as part of its expansion strategy. The bank aims to increase its reach in rural and semi-urban markets. This expansion will create 5000 new jobs.",
+        "source": "Financial Express",
+        "timestamp": "2024-12-01T09:00:00"
+    },
+    {
+        "headline": "Banking sector NPAs decline to 5-year low, credit growth at 16%",
+        "content": "The banking sector's Non-Performing Assets have fallen to a 5-year low of 3.2%, according to RBI data. Credit growth has accelerated to 16% year-on-year, driven by retail and MSME lending. This indicates improving health of the banking sector.",
+        "source": "MoneyControl",
+        "timestamp": "2024-12-01T14:00:00"
+    },
+    {
+        "headline": "TCS reports 12% revenue growth in Q4, announces special dividend",
+        "content": "Tata Consultancy Services reported a 12% year-on-year revenue growth in Q4 FY24, beating analyst estimates. The company announced a special dividend of Rs 18 per share. TCS added 15 new clients during the quarter in the BFSI segment.",
+        "source": "Economic Times",
+        "timestamp": "2024-11-30T17:00:00"
+    },
+    {
+        "headline": "Infosys bags $2 billion deal from European bank",
+        "content": "Infosys has won a massive $2 billion multi-year contract from a leading European banking institution for digital transformation services. This is one of the largest deals in Infosys's history. The stock surged 4% on the announcement.",
+        "source": "Business Standard",
+        "timestamp": "2024-11-30T12:00:00"
+    },
+    {
+        "headline": "IT sector sees strong demand recovery in Q4, hiring up 20%",
+        "content": "The Indian IT services sector witnessed a strong demand recovery in Q4 2024, with hiring up 20% quarter-on-quarter. Major companies like TCS, Infosys, and Wipro reported robust deal pipelines. Attrition rates have also moderated to pre-pandemic levels.",
+        "source": "LiveMint",
+        "timestamp": "2024-11-30T15:00:00"
+    },
+    {
+        "headline": "Maruti Suzuki launches new electric SUV, bookings open December 5",
+        "content": "Maruti Suzuki unveiled its first electric SUV priced at Rs 18 lakhs, with bookings starting December 5th. The company aims to capture 20% of the EV market by 2026. The vehicle offers a range of 450km on a single charge.",
+        "source": "MoneyControl",
+        "timestamp": "2024-12-02T10:00:00"
+    },
+    {
+        "headline": "Tata Motors reports record EV sales, up 150% year-on-year",
+        "content": "Tata Motors announced record electric vehicle sales with a 150% YoY increase. The company sold 50,000 EVs in November alone, driven by strong demand for Nexon EV and Tiago EV. Tata Motors now commands 75% market share in India's EV segment.",
+        "source": "Economic Times",
+        "timestamp": "2024-12-02T11:30:00"
+    },
+    {
+        "headline": "Auto sector faces slowdown as festive demand wanes",
+        "content": "The automobile sector is experiencing a post-festive slowdown with sales declining 8% in November. Dealers report rising inventory levels and are offering discounts to clear stock. Analysts expect recovery only in Q1 2025.",
+        "source": "Financial Express",
+        "timestamp": "2024-12-02T09:00:00"
+    },
+    {
+        "headline": "Sun Pharma gets USFDA approval for generic cancer drug",
+        "content": "Sun Pharmaceutical Industries received approval from the US FDA for a generic version of a blockbuster cancer medication. The drug has an addressable market size of $1.2 billion annually in the US. Shares jumped 6% on the news.",
+        "source": "Business Standard",
+        "timestamp": "2024-12-01T16:00:00"
+    },
+    {
+        "headline": "Dr Reddy's Laboratories launches 5 new generic drugs in US market",
+        "content": "Dr Reddy's Laboratories announced the launch of 5 new generic pharmaceutical products in the United States. These launches are expected to contribute $200 million in annual revenue. The company continues to strengthen its US generics portfolio.",
+        "source": "LiveMint",
+        "timestamp": "2024-12-01T13:00:00"
+    },
+    {
+        "headline": "Pharma sector sees robust exports growth, up 18% in FY24",
+        "content": "India's pharmaceutical sector recorded an 18% growth in exports during FY24, reaching $28 billion. The US and Europe remain the largest markets. Companies are investing heavily in biosimilars and specialty drugs for future growth.",
+        "source": "MoneyControl",
+        "timestamp": "2024-12-01T12:00:00"
+    },
+    {
+        "headline": "Reliance Industries announces $10 billion investment in green energy",
+        "content": "Reliance Industries unveiled plans to invest $10 billion in renewable energy over the next 3 years. The conglomerate will set up solar panel manufacturing, battery storage, and green hydrogen facilities. This is part of RIL's carbon neutrality goal by 2035.",
+        "source": "Economic Times",
+        "timestamp": "2024-12-02T14:00:00"
+    },
+    {
+        "headline": "ONGC discovers major oil field in Krishna-Godavari basin",
+        "content": "Oil and Natural Gas Corporation announced the discovery of a significant oil reserve in the Krishna-Godavari basin. Initial estimates suggest reserves of 500 million barrels. This discovery could reduce India's oil import dependency by 5%.",
+        "source": "Business Standard",
+        "timestamp": "2024-12-02T15:00:00"
+    },
+    {
+        "headline": "Energy sector stocks rally on crude oil price decline",
+        "content": "Energy sector stocks rallied today following a 8% decline in crude oil prices globally. OMCs like Indian Oil, BPCL, and HPCL gained 3-5% as lower input costs are expected to improve margins. Brent crude fell to $78 per barrel.",
+        "source": "Financial Express",
+        "timestamp": "2024-12-02T16:00:00"
+    },
+    {
+        "headline": "Bharti Airtel completes 5G rollout across 5000 cities",
+        "content": "Bharti Airtel announced the completion of its 5G network rollout across 5000 cities and towns in India. The company has invested Rs 40,000 crores in 5G infrastructure. Airtel now covers 85% of India's urban population with 5G services.",
+        "source": "LiveMint",
+        "timestamp": "2024-11-30T10:00:00"
+    },
+    {
+        "headline": "Telecom sector sees tariff hikes, ARPU expected to rise 15%",
+        "content": "Major telecom operators announced tariff increases across prepaid and postpaid plans. Industry analysts expect Average Revenue Per User (ARPU) to rise by 15% in the next quarter. The hikes are aimed at improving profitability and funding 5G expansion.",
+        "source": "MoneyControl",
+        "timestamp": "2024-11-30T11:00:00"
+    },
+    {
+        "headline": "Hindustan Unilever launches premium skincare range",
+        "content": "Hindustan Unilever unveiled a new premium skincare range targeting the growing affluent consumer segment. The company expects the premium segment to contribute 30% of revenues by 2026. HUL is investing Rs 500 crores in marketing for this launch.",
+        "source": "Economic Times",
+        "timestamp": "2024-12-01T10:00:00"
+    },
+    {
+        "headline": "ITC reports strong FMCG growth, cigarette volumes stable",
+        "content": "ITC Limited reported robust growth in its FMCG segment with revenues up 22% YoY. The cigarette business remained stable despite regulatory headwinds. The company's hotels division also showed strong recovery with 90% occupancy rates.",
+        "source": "Business Standard",
+        "timestamp": "2024-12-01T18:00:00"
+    },
+    {
+        "headline": "FMCG sector faces margin pressure from rising input costs",
+        "content": "The Fast-Moving Consumer Goods sector is grappling with margin pressure as palm oil and packaging costs surge. Companies are considering 4-6% price hikes in Q1 2025. Rural demand remains subdued affecting overall volume growth.",
+        "source": "Financial Express",
+        "timestamp": "2024-12-02T08:00:00"
+    },
+    {
+        "headline": "SEBI introduces new regulations for algorithmic trading",
+        "content": "The Securities and Exchange Board of India announced new regulations for algorithmic trading to enhance market stability. All algo traders must now register with SEBI and maintain audit trails. The regulations will be effective from January 2025.",
+        "source": "LiveMint",
+        "timestamp": "2024-12-02T12:00:00"
+    },
+    {
+        "headline": "SEBI cracks down on market manipulation, imposes Rs 50 crore fine",
+        "content": "SEBI has imposed a penalty of Rs 50 crores on several entities for market manipulation and insider trading. The regulator detected coordinated trades that artificially inflated stock prices. This is part of SEBI's enhanced surveillance efforts.",
+        "source": "MoneyControl",
+        "timestamp": "2024-12-02T13:00:00"
+    },
+    {
+        "headline": "SBI reports highest-ever quarterly profit of Rs 15,000 crores",
+        "content": "State Bank of India posted its highest-ever quarterly profit of Rs 15,000 crores in Q3 FY24. Net Interest Margin improved to 3.5% while asset quality continued to strengthen. The bank's Return on Assets reached a 10-year high of 1.1%.",
+        "source": "Economic Times",
+        "timestamp": "2024-11-29T17:00:00"
+    },
+    {
+        "headline": "Axis Bank raises Rs 10,000 crores through QIP",
+        "content": "Axis Bank successfully raised Rs 10,000 crores through a Qualified Institutional Placement to strengthen its capital base. The issue was oversubscribed 2.5 times. The funds will be used for business expansion and meeting regulatory capital requirements.",
+        "source": "Business Standard",
+        "timestamp": "2024-11-29T14:00:00"
+    },
+    {
+        "headline": "Kotak Mahindra Bank launches AI-powered banking platform",
+        "content": "Kotak Mahindra Bank unveiled an AI-powered digital banking platform offering personalized financial services. The platform uses machine learning to provide customized investment advice and spending insights. The bank expects 50% of transactions to move to this platform within a year.",
+        "source": "LiveMint",
+        "timestamp": "2024-11-29T12:00:00"
+    },
+    {
+        "headline": "Wipro wins $500 million cloud transformation deal",
+        "content": "Wipro Limited announced a $500 million cloud transformation contract with a Fortune 100 company. The 5-year deal involves migrating legacy systems to cloud infrastructure. This is Wipro's largest cloud deal in the Asia Pacific region.",
+        "source": "Financial Express",
+        "timestamp": "2024-11-28T16:00:00"
+    },
+    {
+        "headline": "HCL Technologies acquires German IT firm for $800 million",
+        "content": "HCL Technologies completed the acquisition of a German engineering services company for $800 million. This acquisition strengthens HCL's presence in the automotive and industrial manufacturing sectors. The deal is expected to add $250 million in annual revenues.",
+        "source": "MoneyControl",
+        "timestamp": "2024-11-28T15:00:00"
+    },
+    {
+        "headline": "Mahindra & Mahindra launches 5 new tractor models for export markets",
+        "content": "Mahindra & Mahindra unveiled 5 new tractor models specifically designed for export markets in Africa and Latin America. The company aims to increase its global market share to 20% by 2026. M&M's tractor division contributes 40% to total revenues.",
+        "source": "Economic Times",
+        "timestamp": "2024-11-28T11:00:00"
+    },
+    {
+        "headline": "Bajaj Auto reports 25% growth in motorcycle exports",
+        "content": "Bajaj Auto reported a 25% increase in motorcycle exports during November 2024. Strong demand from African and Southeast Asian markets drove the growth. The company exported 180,000 units, with the Pulsar and Dominar models leading sales.",
+        "source": "Business Standard",
+        "timestamp": "2024-11-28T10:00:00"
+    },
+    {
+        "headline": "Cipla receives WHO approval for tuberculosis drug",
+        "content": "Cipla Limited received World Health Organization approval for its new tuberculosis treatment drug. The medication offers a shorter treatment duration and better efficacy. This approval opens up markets across 100+ countries in Africa and Asia.",
+        "source": "LiveMint",
+        "timestamp": "2024-11-27T14:00:00"
+    },
+    {
+        "headline": "Lupin expands manufacturing capacity with Rs 2000 crore investment",
+        "content": "Lupin Pharmaceuticals announced a Rs 2000 crore investment to expand its manufacturing facilities in India. The new plants will focus on biosimilars and complex generics. Production capacity is expected to increase by 40% over the next two years.",
+        "source": "Financial Express",
+        "timestamp": "2024-11-27T13:00:00"
+    },
+    {
+        "headline": "Nestle India faces supply chain disruptions, Q4 growth may slow",
+        "content": "Nestle India warned of potential supply chain disruptions affecting Q4 performance. Rising logistics costs and raw material shortages are impacting production. The company is working on alternative sourcing strategies to minimize impact.",
+        "source": "MoneyControl",
+        "timestamp": "2024-11-27T12:00:00"
+    },
+    {
+        "headline": "Britannia Industries expands biscuit portfolio with health-focused products",
+        "content": "Britannia Industries launched a new range of health-focused biscuits targeting fitness-conscious consumers. The company invested Rs 300 crores in R&D for this product line. Britannia expects the healthy snacking segment to grow 30% annually.",
+        "source": "Economic Times",
+        "timestamp": "2024-11-27T10:00:00"
+    }
+]
