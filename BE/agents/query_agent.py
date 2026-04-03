@@ -36,7 +36,7 @@ Identify:
 - Topics/themes
 - Stock symbols
 
-Return JSON with: {"companies": [...], "sectors": [...], "regulators": [...], "topics": [...], "symbols": [...]}
+Return JSON with: {{"companies": [...], "sectors": [...], "regulators": [...], "topics": [...], "symbols": [...]}}
 If nothing found for a category, return empty list."""),
             ("human", "Analyze this query: {query}")
         ])
