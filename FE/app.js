@@ -173,7 +173,17 @@ function createArticleCard(article) {
                                 <span class="stock-confidence">${(stock.confidence * 100).toFixed(0)}%</span>
                             </div>
                         `).join('')}
-                        ${stocks.length > 5 ? `<span style="color: var(--text-muted);">+${stocks.length - 5} more</span>` : ''}
+                        ${stocks.length > 5 ? `
+                            <span onclick="this.nextElementSibling.style.display = 'contents'; this.style.display = 'none';" style="cursor: pointer; color: var(--gold-primary); font-size: 0.875rem; display: flex; align-items: center; border: 1px solid var(--black-tertiary); padding: 0.5rem 1rem; border-radius: 8px; background: var(--black-tertiary);">+${stocks.length - 5} more</span>
+                            <div style="display: none;">
+                                ${stocks.slice(5).map(stock => `
+                                    <div class="stock-badge">
+                                        <span class="stock-symbol">${stock.symbol}</span>
+                                        <span class="stock-confidence">${(stock.confidence * 100).toFixed(0)}%</span>
+                                    </div>
+                                `).join('')}
+                            </div>
+                        ` : ''}
                     </div>
                 </div>
             ` : ''}
